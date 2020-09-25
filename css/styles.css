@@ -1,0 +1,119 @@
+body {
+    background-color: #C0EBE1;
+}
+
+.bal-hirek,
+.jobboldal {
+    background-color: #80F2F2;
+}
+
+.navbar,
+.lablec {
+    background-color: #1FB2DB;
+}
+
+.tartalom {
+    background-color: #EBD9B7;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw margin-top: 10px;
+}
+
+h5 {
+    font-size: 2vw;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fejlec {
+    color: darkolivegreen;
+    flex: 25% 50% 25%;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+
+.bal-hirek,
+.tartalom,
+.jobboldal {
+    border: 1px solid #78b380;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fejlec img {
+    margin-top: 10px;
+    vertical-align: left;
+    width: 100%;
+    max-width: 300px;
+}
+
+.fejlec {
+    flex: 25%;
+    padding: 0 5px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.lablec {
+    margin-top: 100px;
+    padding: 10px;
+    color: black;
+}
+
+.card-columns {
+    margin: 40px;
+    padding: 20px;
+}
+
+.card-footer {
+    margin-top: 10%;
+    font-size: xx-large;
+}
+
+th {
+    width: 33%;
+}
+
+.logo {
+    grid-row: 1 / 3;
+    margin: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+@media only screen and (max-width: 768px) {
+    .szlogen {
+        display: none !important;
+    }
+
+    .logo {
+        grid-row: none;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
