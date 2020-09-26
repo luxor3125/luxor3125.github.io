@@ -1,14 +1,16 @@
 body {
     background-color: #C0EBE1;
+    font-family: 'Cinzel', serif;
 }
 
 .bal-hirek,
 .jobboldal {
     background-color: #80F2F2;
+    color: black;
 }
 
 .navbar,
-.lablec {
+footer {
     background-color: #1FB2DB;
 }
 
@@ -28,8 +30,20 @@ h5 {
     font-size: 2vw;
 }
 
-body {
-    font-family: 'Cinzel', serif;
+h6 {
+    font-weight: 600;
+}
+header {
+    color: darkolivegreen;
+    padding: 0 5px;
+}
+
+footer {
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 70px;
+    padding: 10px;
+    color: black;
 }
 
 .row {
@@ -39,13 +53,6 @@ body {
     margin: 10px;
 }
 
-.fejlec {
-    color: darkolivegreen;
-    flex: 25% 50% 25%;
-    padding: 5px;
-    text-transform: uppercase;
-
-}
 
 .bal-hirek,
 .tartalom,
@@ -54,29 +61,13 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin: 5px;
-}
-
-.fejlec img {
-    margin-top: 10px;
-    vertical-align: left;
-    width: 100%;
-    max-width: 300px;
-}
-
-.fejlec {
-    flex: 25%;
-    padding: 0 5px;
-}
+    text-decoration: none;
+    overflow-y: hidden;
+    max-height: 500px;}
 
 .nav-link {
     color: black;
     text-decoration: none;
-}
-
-.lablec {
-    margin-top: 100px;
-    padding: 10px;
-    color: black;
 }
 
 .card-columns {
@@ -86,9 +77,8 @@ body {
 
 .card-footer {
     margin-top: 10%;
-    font-size: xx-large;
+    font-size: x-large;
 }
-
 th {
     width: 33%;
 }
