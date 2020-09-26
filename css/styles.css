@@ -58,6 +58,13 @@ footer {
     max-height: 500px;
 }
 
+.kata {
+max-width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
 .bal-hirek,
 .tartalom,
 .jobboldal {

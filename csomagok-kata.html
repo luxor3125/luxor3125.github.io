@@ -21,20 +21,18 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3 fejlec">
+  <div class="container-fluid header">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-left">
         <a href="index.html">
-          <img src="img/Pongo-bt-logo.jpg" alt="pongo-bt-logo">
-        </a>
-      </div>
-      <div class="col-sm-9 fejlec">
+          <img class="img-fluid rounded" src="img/Pongo-bt-logo.jpg" alt="Pongo-bt-logo">
+        </a> </div>
+      <div class="col-md-8 d-none d-md-block">
         <h1>Könyvelés - Adótanácsadás</h1>
         <h5>Megbízható, felelősségteljes könyvelés Budapesten</h5>
       </div>
     </div>
   </div>
-
   <nav class="navbar navbar-expand-md navbar-light" id="navbarToggleExternalContent">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -64,7 +62,7 @@
             <a class="dropdown-item" href="kalkulator.html">Kalkulátor</a>
           </div>
         </li>
-       <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="tavkonyveles.html">Távkönyvelés</a>
         </li>
         <li class="nav-item">
@@ -74,72 +72,85 @@
     </div>
   </nav>
 
-  <div class="tartalom container-fluid">
-    <h2>Kata könyvelése egyéni vállalkozóknak</h2>
-    <p> KATÁ-s vállalkozásod van vagy szeretnél KATÁ-s lenni? Mi segítünk!
-      A KATA rendszere egy egyszerűsített adózási forma egyéni vállalkozók részére. nem véletlenül egyre népszerűbb,
-      mivel a vállalkozó adminisztrációs feladatait minden egyéb adózási formához képest lényegesen leegyszerűsíti.
-      Cégünk rendkívül kedvező könyvelési díjjakkal profi könyvelőirodai háttérrel segíti ebben partnereit.</p>
-  </div>
+  <div class="kata">
+    <div class="tartalom container-fluid">
+      <h2>Kata könyvelése egyéni vállalkozóknak</h2>
+      <p> KATÁ-s vállalkozásod van vagy szeretnél KATÁ-s lenni? Mi segítünk!
+        A KATA rendszere egy egyszerűsített adózási forma egyéni vállalkozók részére. nem véletlenül egyre népszerűbb,
+        mivel a vállalkozó adminisztrációs feladatait minden egyéb adózási formához képest lényegesen leegyszerűsíti.
+        Cégünk rendkívül kedvező könyvelési díjjakkal profi könyvelőirodai háttérrel segíti ebben partnereit.</p>
+    </div>
 
 
-  <div class="tartalom container-fluid">
-    <div class="card-deck">
-      <div class="card bg-light">
-        <div class="card-header">
-          <b>Alap</b>
+    <div class="tartalom container-fluid">
+      <div class="card-deck">
+        <div class="card bg-light">
+          <div class="card-header">
+            <b>Alap</b>
+          </div>
+          <div class="card-body">
+            <li>egyéni vállalkozónak</li>
+            <li>havi maximum 15 db számla</li>
+            <li>alkalmazott nélkül</li>
+            <li>alanyi adómentes</li>
+          </div>
+          <div class="card-footer">
+            <p class="text-center font-weight-bolder text-justify">5 000 Ft/hó</p>
+            <button class="btn-lg">Megrendelem</button>
+          </div>
         </div>
-        <div class="card-body">
-          <li>egyéni vállalkozónak</li>
-          <li>havi maximum 15 db számla</li>
-          <li>alkalmazott nélkül</li>
-          <li>alanyi adómentes</li>
+        <div class="card bg-light">
+          <div class="card-header">
+            <b>Közepes</b>
+          </div>
+          <div class="card-body">
+            <li>egyéni vállalkozónak</li>
+            <li>havi maximum 30 db számla</li>
+            <li>legfeljebb 1 alkalmazottal</li>
+            <li>alanyi adómentes</li>
+          </div>
+          <div class="card-footer">
+            <p class="text-center font-weight-bolder text-justify">12 000 Ft/hó</p>
+            <button class="btn-lg">Megrendelem</button>
+          </div>
         </div>
-        <div class="card-footer">
-          <p class="text-center font-weight-bolder text-justify">5 000 Ft/hó</p>
-          <button class="btn-lg">Megrendelem</button>
-        </div>
-      </div>
-      <div class="card bg-light">
-        <div class="card-header">
-          <b>Közepes</b>
-        </div>
-        <div class="card-body">
-          <li>egyéni vállalkozónak</li>
-          <li>havi maximum 30 db számla</li>
-          <li>legfeljebb 1 alkalmazottal</li>
-          <li>alanyi adómentes</li>
-        </div>
-        <div class="card-footer">
-          <p class="text-center font-weight-bolder text-justify">12 000 Ft/hó</p>
-          <button class="btn-lg">Megrendelem</button>
-        </div>
-      </div>
-      <div class="card bg-light">
-        <div class="card-header">
-          <b>Teljes</b>
-        </div>
-        <div class="card-body">
-          <li>egyéni vállalkozónak</li>
-          <li>havi maximum 100 db számla</li>
-          <li>legfeljebb 2 alkalmazottal</li>
-          <li>alanyi adómentes vagy áfa bevallásra kötelezett</li>
-        </div>
-        <div class="card-footer">
-          <p class="text-center font-weight-bolder text-justify">22 000 Ft/hó</p>
-          <button class="btn-lg">Megrendelem</button>
+        <div class="card bg-light">
+          <div class="card-header">
+            <b>Teljes</b>
+          </div>
+          <div class="card-body">
+            <li>egyéni vállalkozónak</li>
+            <li>havi maximum 100 db számla</li>
+            <li>legfeljebb 2 alkalmazottal</li>
+            <li>alanyi adómentes vagy áfa bevallásra kötelezett</li>
+          </div>
+          <div class="card-footer">
+            <p class="text-center font-weight-bolder text-justify">22 000 Ft/hó</p>
+            <button class="btn-lg">Megrendelem</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
   <div class="footer text-center">
-    <footer>&copy Pongo'96 Bt | <i class='fas fa-address-book'></i>  <button class="btn" onclick="myFunction()"> Budapest 1039 Vera utca 4. </button> | <i class='fas fa-phone'></i>+36 1 430 34 30 | <i class="	fas fa-envelope-square"></i> <a href="mailto:info@pongobt.hu" class="text-dark text-decoration-none"> info@pongobt.hu</a> | <a href="impresszum.html" class="text-decoration-none text-dark">Impresszum</a> |  weboldal "Bogi"
+    <footer>&copy Pongo'96 Bt | <i class='fas fa-address-book'></i> <button class="btn" onclick="myFunction()"> Budapest
+        1039 Vera utca 4. </button> | <i class='fas fa-phone'></i>+36 1 430 34 30 | <i
+        class="	fas fa-envelope-square"></i> <a href="mailto:info@pongobt.hu" class="text-dark text-decoration-none">
+        info@pongobt.hu</a> | <a href="impresszum.html" class="text-decoration-none text-dark">Impresszum</a> | weboldal
+      "Bogi"
     </footer>
-</div>
+  </div>
+  </div>
 
 
 </body>
+
+<!--sajás script-->
+<script>
+  function myFunction() {
+    window.open("https://goo.gl/maps/YLMhxPBPsWPZt1D36");
+  }
+</script>
 
 <!--jQuery javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
