@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pongo96 Bt | könyvelés</title>
-  <!--bootstrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!--sajat CSS-->
-  <link rel="stylesheet" href="css/styles.css">
-  <!--Font CSS-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bitter:ital,wght@1,100&family=Bree+Serif&family=Cinzel&family=Lora&display=swap"
-    rel="stylesheet">
-  <!--Icon CSS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Könyvelés adótanácsadás megbíztható könyvelőirodától">
+    <meta name="keywords"
+        content="adó könyvelés könyvelő könyvelőcég könyvelőiroda bevallás szja kata eho kiva tb ugyintézés pénzügy tanácsadás">
+    <meta name="author" content="Bogi">
+    <title>Pongo96 Bt | könyvelés</title>
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--sajat CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Font CSS-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bitter:ital,wght@1,100&family=Bree+Serif&family=Cinzel&family=Lora&display=swap"
+        rel="stylesheet">
+    <!--Icon CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
+
 
 <body>
   <div class="container-fluid header">
@@ -58,7 +64,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="csomagok-kata.html">KATA-s vállalkozók</a>
             <a class="dropdown-item" href="csomagok-egyeni-vallalkozok.html">Egyéni vállalkozók</a>
-            <a class="dropdown-item" href="csomagok-kft.html">Egyszemélyes Kft</a>
+            <a class="dropdown-item" href="csomagok-kft.html">Kft</a>
             <a class="dropdown-item" href="kalkulator.html">Kalkulátor</a>
           </div>
         </li>
@@ -96,7 +102,7 @@
           </div>
           <div class="card-footer">
             <p class="text-center font-weight-bolder text-justify">5 000 Ft/hó</p>
-            <button class="btn-lg">Megrendelem</button>
+            <button class="btn-lg" onclick="jelentkezik()">Megrendelem</button>
           </div>
         </div>
         <div class="card bg-light">
@@ -111,7 +117,7 @@
           </div>
           <div class="card-footer">
             <p class="text-center font-weight-bolder text-justify">12 000 Ft/hó</p>
-            <button class="btn-lg">Megrendelem</button>
+            <button class="btn-lg" onclick="jelentkezik()">Megrendelem</button>
           </div>
         </div>
         <div class="card bg-light">
@@ -126,7 +132,7 @@
           </div>
           <div class="card-footer">
             <p class="text-center font-weight-bolder text-justify">22 000 Ft/hó</p>
-            <button class="btn-lg">Megrendelem</button>
+            <button class="btn-lg" onclick="jelentkezik()">Megrendelem</button>
           </div>
         </div>
       </div>
@@ -151,7 +157,14 @@
     window.open("https://goo.gl/maps/YLMhxPBPsWPZt1D36");
   }
 </script>
-
+<script>
+  function jelentkezik() {
+    var name = prompt ("Köszönjük hogy jelentkezett, kérem adja meg nevét");
+    var email = prompt ("email címét");
+    var tel = prompt ("telefon számát");
+    alert ("KÖSZÖNJÜK")
+  }
+</script>
 <!--jQuery javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

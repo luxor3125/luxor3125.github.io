@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="hu">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pongo96 Bt | könyvelés</title>
-  <!--bootstrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!--sajat CSS-->
-  <link rel="stylesheet" href="css/styles.css">
-  <!--Font CSS-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bitter:ital,wght@1,100&family=Bree+Serif&family=Cinzel&family=Lora&display=swap"
-    rel="stylesheet">
-  <!--Icon CSS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Könyvelés adótanácsadás megbíztható könyvelőirodától">
+    <meta name="keywords"
+        content="adó könyvelés könyvelő könyvelőcég könyvelőiroda bevallás szja kata eho kiva tb ugyintézés pénzügy tanácsadás">
+    <meta name="author" content="Bogi">
+    <title>Pongo96 Bt | könyvelés</title>
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--sajat CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Font CSS-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bitter:ital,wght@1,100&family=Bree+Serif&family=Cinzel&family=Lora&display=swap"
+        rel="stylesheet">
+    <!--Icon CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
+
 
 <body>
   <div class="container-fluid header">
@@ -58,7 +64,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="csomagok-kata.html">KATA-s vállalkozók</a>
             <a class="dropdown-item" href="csomagok-egyeni-vallalkozok.html">Egyéni vállalkozók</a>
-            <a class="dropdown-item" href="csomagok-kft.html">Egyszemélyes Kft</a>
+            <a class="dropdown-item" href="csomagok-kft.html">Kft</a>
             <a class="dropdown-item" href="kalkulator.html">Kalkulátor</a>
           </div>
         </li>
@@ -102,7 +108,7 @@
             <label for="comment"><b>Milyen ügyben segíthetünk ?</b></label>
             <textarea class="form-control" rows="10" id="comment"></textarea>
           </div>
-          <button type="button" class="btn btn-light">Küldés</button>
+          <button type="button" class="btn btn-light" onclick="valasz()">Küldés</button>
 
         </div>
 
@@ -127,6 +133,11 @@
 <script>
   function myFunction() {
     window.open("https://goo.gl/maps/YLMhxPBPsWPZt1D36");
+  }
+</script>
+<script>
+  function valasz() {
+    alert ("Köszönjük jelentkezését, hamarosan jelentkezünk.")
   }
 </script>
 

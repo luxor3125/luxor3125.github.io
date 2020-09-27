@@ -9,6 +9,11 @@ body {
     color: black;
 }
 
+.tablazat {
+    padding: 10px;
+    
+}
+
 .navbar,
 footer {
     background-color: #1FB2DB;
