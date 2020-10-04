@@ -1,21 +1,26 @@
 body {
-    background-color: #DAFAF9;
+    background-color:#D6F07F;
     font-family: 'Mukta', sans-serif;
 }
 
 .bal-hirek,
 .jobboldal {
-    background-color: #5FDCF0;
+    background-color: #E0CA96;
     color: black;
+}
+
+.tablazat {
+    padding: 10px;
+    
 }
 
 .navbar,
 footer {
-    background-color: #5FDCF0;
+    background-color: #E0CA96;
 }
 
 .tartalom {
-    background-color: #AED3D9;
+    background-color: #FFBD69;
 }
 
 h1 {
@@ -33,7 +38,6 @@ h5 {
 h6 {
     font-weight: 600;
 }
-
 header {
     color: darkolivegreen;
     padding: 0 5px;
@@ -54,16 +58,6 @@ footer {
     margin: 10px;
 }
 
-.tartalom img {
-    padding: 10px;
-    max-width: 350px;
-
-}
-
-.tablazat {
-    padding: 10px;
-}
-
 .rolunk img {
     max-width: 300px;
     max-height: 300px;
@@ -71,15 +65,16 @@ footer {
 }
 
 .focikk {
-    overflow-y: scroll;
+    overflow-y: hidden;
     max-height: 500px;
 }
 
 .kata {
-    max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+max-width: 90%;
+margin-left: 5%;
+margin-right: 5%;
 }
+
 
 .bal-hirek,
 .tartalom,
@@ -105,7 +100,6 @@ footer {
     margin-top: 10%;
     font-size: x-large;
 }
-
 th {
     width: 33%;
 }
